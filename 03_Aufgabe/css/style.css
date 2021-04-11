@@ -34,7 +34,6 @@
         }
     .insta
     {
-        width: 70px; height:auto;
         filter: grayscale(100%);
         transition: 1s;
     }
@@ -63,7 +62,7 @@
     padding-bottom: 100%;
 }
 .BG_Kacheln {
-    background-image: url('../Bilder/Hintergrund_kacheln.png');
+    background-image: url('../Bilder/Hintergrund_kacheln_small.png');
     background-repeat: repeat;
     background-size: 5%;
 }
@@ -198,4 +197,7 @@ transition: 0.8s;
 margin-top: initial;
 z-index: -1;
 margin-top: 0;
+        }
+        .main{
+            margin-top: 30px;
         }
