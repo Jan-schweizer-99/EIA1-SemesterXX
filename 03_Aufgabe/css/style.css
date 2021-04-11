@@ -1,0 +1,201 @@
+.buttonportfolio {
+	font-family:'Arial Black', sans-serif;
+    font-size: 25px;
+    margin-top: 3px;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(255, 123, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.8s;
+    }
+    .buttonportfolio:hover {
+        background-color: rgba(255, 0, 0, 0.500);
+        color: rgb(255, 255, 255);
+    }
+    .buttonaufgabe {
+        font-family:'Arial Black', sans-serif;
+        font-size: 25px;
+        margin-top: 3px;
+        width: 400px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: rgba(255, 123, 0, 0);
+        border-radius: 10px;
+        border: 2px solid ivory;
+        color: white;
+        transition-duration: 0.8s;
+        }
+        .buttonaufgabe:hover {
+            background-color: rgb(0, 255, 0);
+            color: rgb(255, 255, 255);
+        }
+    .insta
+    {
+        width: 70px; height:auto;
+        filter: grayscale(100%);
+        transition: 1s;
+    }
+    .insta:hover
+    {
+        filter: grayscale(0%);
+        transition: 0.8s; 
+    }
+.Fotos {
+    margin: 10px 50px;
+}
+.Fotos img{
+    width: 150px;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.Fotos img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+.Text_box {
+    background: #1d1d1d;
+    filter: drop-shadow(0px 0px 220px #000);
+    margin: -2% 15% -5% 15%;
+    padding-bottom: 100%;
+}
+.BG_Kacheln {
+    background-image: url('../Bilder/Hintergrund_kacheln.png');
+    background-repeat: repeat;
+    background-size: 5%;
+}
+.SVG_1 
+{
+position: absolute;
+margin-top: initial;
+z-index: -1;
+margin-top: 0;
+}
+.kopf {
+background-color: black;
+}
+.button {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(255, 123, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.8s;
+    }
+    .button_this_site {
+        font-family:'Arial Black', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 130px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: rgb(3, 100, 0);
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        color: white;
+        transition-duration: 0.8s;
+        }
+        .button_this_site:hover {
+            background-color: rgb(0, 255, 0);
+            color: rgb(255, 255, 255);
+        }
+    .button:hover {
+        background-color: rgb(0, 255, 0);
+        color: rgb(255, 255, 255);
+    }
+    .navbar {
+        margin: 0px 40%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        width: 550px;
+        border-radius: 20px;
+    }
+    .LOGO {
+        background-color: #000;
+        width: 100%;
+        height: 35%;
+        margin-top:20px;
+        float: inline-end;
+    }
+    .LOGO img {
+        margin-top:10px;
+    }
+    .space_lg
+    {
+    height:50px;
+    }
+    #fb{
+        transition: 1s;
+    }
+    #fb:hover{
+fill: #1900ff8a;
+transition: 0.8s;
+    }
+    form {
+        width: 400px; 
+        height: auto; 
+        overflow: hidden;
+        position: absolute; 
+        top:50%; 
+        left:50%;
+        transform: translateX(-50%) translateY(-30%);
+        box-sizing: border-box;
+    }
+    form input {
+        color: white;
+        margin: 10% 10% 0 10%;
+        width: 70%; 
+        padding:5%;
+        display: block;
+        border: none;
+        border-bottom: 1px solid rgb(0, 255, 0);
+        background: #00000000;
+    }
+    input:focus{
+        outline:none; background-size:100% 100%;
+    }
+    textarea{
+        border: 1px solid rgb(0, 255, 0);
+        color: white;
+        border-radius: 20px;
+        width: 300px; 
+        padding: 10px 10px 10px 10px;
+        background: #00000000;
+    }
+    textarea:focus{
+    background: #00000000;
+    outline:none; background-size:100% 100%;
+    }
+    .button_formular {
+        font-size: 25px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: rgba(255, 123, 0, 0);
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        transition-duration: 0.8s;
+        }
+        .button_formular:hover {
+            background-color: rgb(0, 255, 0);
+            color: rgb(255, 255, 255);
+        }
+        .header{
+            position: absolute;
+margin-top: initial;
+z-index: -1;
+margin-top: 0;
+        }
