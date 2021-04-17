@@ -1,0 +1,33 @@
+
+.BG {
+    background-image: url('../Bilder/bg.png');
+    background-repeat: repeat;
+    min-height: 100vh
+}
+.wrapper {
+    background-image: url(../Bilder/wrapperbg.png);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Schleife {
+    z-index: 1;
+    background-image: url(../Bilder/banderole.png);
+    width: 227px;
+    height: 122px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-0%, -0%);
+}
+.Fuwarock{
+    width: 500px;
+    height: 281px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

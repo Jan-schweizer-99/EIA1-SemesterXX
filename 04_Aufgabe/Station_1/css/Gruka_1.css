@@ -1,0 +1,41 @@
+
+.BG {
+    background-image: url('../Bilder/bg.png');
+    background-repeat: repeat;
+    min-height: 100vh
+}
+.wrapper {
+    background-image: url(../Bilder/wrapperbg.png);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.busch {
+    background-image: url(../Bilder/busch.png);
+    width: 222px;
+    height: 179px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.pinguin {
+    background-image: url(../Bilder/pinguin.png);
+    width: 144px;
+    height: 193px;
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.text {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

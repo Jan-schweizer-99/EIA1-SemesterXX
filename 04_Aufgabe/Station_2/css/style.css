@@ -1,0 +1,51 @@
+
+.BG {
+    background-image: url('../Bilder/bg.png');
+    background-repeat: repeat;
+    min-height: 100vh
+}
+.wrapper {
+    background-image: url(../Bilder/wrapperbg.png);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stern_1 {
+    background-image: url(../Bilder/stern.png);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.stern_1:hover {
+    background-image: url(../Bilder/stern_hover.png);
+}
+.stern_2 {
+    background-image: url(../Bilder/stern.png);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.stern_2:hover {
+    background-image: url(../Bilder/stern_hover.png);
+}
+.stern_3 {
+    background-image: url(../Bilder/stern.png);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.stern_3:hover {
+    background-image: url(../Bilder/stern_hover.png);
+}
