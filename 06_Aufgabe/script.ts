@@ -11,7 +11,7 @@ var Europa : string = "Europe";
 var Europa08 : number = 4965.7;
 var Europa18 : number = 4209.3;
 
-var Nord_Amerika : string = "North America";
+var Nord_Amerika : string = "north America";
 var Nord_Amerika08 : number = 6600.4;
 var Nord_Amerika18 : number = 6035.6;
 
@@ -28,19 +28,19 @@ var Gesammtemmission18: number = Afrika18 + Sued_Amerika18 + Europa18 + Nord_Ame
 window.addEventListener("load", function() {
 
     document.querySelector(".Afrika").addEventListener("click" , function() { Emissionen(Afrika, Afrika08, Afrika18)});
-    document.querySelector(".Asien").addEventListener("click", function() { Emissionen( Asien, Asien08, Asien18)});
-    document.querySelector(".Australien").addEventListener("click", function() { Emissionen(Australien, Australien08, Australien18)});
-    document.querySelector(".Europa").addEventListener("click", function() { Emissionen(Europa, Europa08, Europa18)});
-    document.querySelector(".Nord_Amerika").addEventListener("click", function() { Emissionen(Nord_Amerika, Nord_Amerika08, Nord_Amerika18)});
-    document.querySelector(".Sued_Amerika").addEventListener("click", function() { Emissionen(Sued_Amerika, Sued_Amerika08, Sued_Amerika08)});
+    document.querySelector(".Asien").addEventListener("click" , function() { Emissionen( Asien, Asien08, Asien18)});
+    document.querySelector(".Australien").addEventListener("click" , function() { Emissionen(Australien, Australien08, Australien18)});
+    document.querySelector(".Europa").addEventListener("click" , function() { Emissionen(Europa, Europa08, Europa18)});
+    document.querySelector(".Nord_Amerika").addEventListener("click" , function() { Emissionen(Nord_Amerika, Nord_Amerika08, Nord_Amerika18)});
+    document.querySelector(".Sued_Amerika").addEventListener("click" , function() { Emissionen(Sued_Amerika, Sued_Amerika08, Sued_Amerika18)});
 });
     function Emissionen (Kontinent: string, Kontinent2008 :number, Kontinent2018:number) {
         document.querySelector(".Kontinent_1").innerHTML = Kontinent;
         document.querySelector(".Kontinent_2").innerHTML = Kontinent;
-        document.querySelector(".emission2018").innerHTML = Kontinent2018.toString() + "kg CO2";
-        document.querySelector(".relativeTotal").innerHTML = Math.round(((100/Gesammtemmission18)*Kontinent2018*100)/100).toString() +"%";
-        document.querySelector(".between2008_2018").innerHTML = Math.round(((Kontinent2018-Kontinent2008)/Kontinent2008*100*100)/100).toString()+"%";
-        document.querySelector(".growthRate").innerHTML =  Math.round(((Afrika18-Afrika08)*100)/100).toString() +"kg CO2";
+        document.querySelector(".emission2018").innerHTML = Kontinent2018.toString() + "kg";
+        document.querySelector(".relativeTotal").innerHTML = Math.round((100/Gesammtemmission18)*Kontinent2018*100)/100 +"%";
+        document.querySelector(".between2008_2018").innerHTML = Math.round((Kontinent2018-Kontinent2008)/Kontinent2008*100*100)/100 +"%";
+        document.querySelector(".growthRate").innerHTML = Math.round((Kontinent2018-Kontinent2008)*100)/100 +"kg";
 };
 // console.log("Die Emission von " + Afrika + " ist: " + Afrika18 + "kg CO2");
 // console.log("Relativ zur Gesamtemission der Welt verursacht " + Afrika + " damit " + Math.round((100/Gesammtemmission18)*Afrika18*100)/100 + "%");
