@@ -34,6 +34,7 @@ var aufgabe_6;
         document.querySelector(".relativeTotal").innerHTML = Math.round((100 / Gesammtemmission18) * Kontinent2018 * 100) / 100 + "%";
         document.querySelector(".between2008_2018").innerHTML = Math.round((Kontinent2018 - Kontinent2008) / Kontinent2008 * 100 * 100) / 100 + "%";
         document.querySelector(".growthRate").innerHTML = Math.round((Kontinent2018 - Kontinent2008) * 100) / 100 + "kg";
+        document.querySelector(".chart").setAttribute("style", "width:" + (Kontinent2018 / Gesammtemmission18) * 100 + "%");
     }
     ;
     // console.log("Die Emission von " + Afrika + " ist: " + Afrika18 + "kg CO2");

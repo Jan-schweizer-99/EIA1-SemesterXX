@@ -23,8 +23,27 @@ footer p {
     font-size: 10px;
     opacity: .5;
 }
+.chartWrapper {
+    z-index: 0;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.chartWrapper .chart {
+    z-index: -1;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    transition: all .4s ease-out;
+}
+
 .Europa, .Nord_Amerika, .Sued_Amerika, .Afrika, .Asien, .Australien {
-    scale: (0.95%);
     opacity: 50%;
     filter: drop-shadow(0 0 5px #000);
     transition: all .2s ease-out;
@@ -32,6 +51,12 @@ footer p {
 
 .Europa:hover, .Nord_Amerika:hover, .Sued_Amerika:hover, .Afrika:hover, .Asien:hover, .Australien:hover {
     opacity: 100%;
-    scale: (1%);
+
     filter: drop-shadow(0 0 5px rgb(0, 255, 170));
+}
+.relativeTotal {
+    color: rgb(0, 0, 0);
+}
+.relativeTotal_text {
+    color: rgb(0, 0, 0);
 }
