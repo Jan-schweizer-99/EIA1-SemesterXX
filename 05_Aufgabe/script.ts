@@ -1,4 +1,4 @@
-
+namespace aufgabe_5{
 var Afrika : String = "Afrika"
 var Afrika08 : number = 1028;
 var Afrika18 : number = 1235.5;
@@ -56,3 +56,4 @@ console.log("Die Emission von " + Sued_Amerika + " ist: " + Sued_Amerika18 + "kg
 console.log("Relativ zur Gesamtemission der Welt verursacht " + Sued_Amerika + " damit " + Math.round((100/Gesammtemmission18)*Sued_Amerika18*100)/100 + "%");
 console.log("Für " + Sued_Amerika + " hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round((Sued_Amerika18-Sued_Amerika08)/Sued_Amerika08*100*100)/100 +"% verändert");
 console.log("2018 im Vergleich zu 2008 sind das " + Math.round((Sued_Amerika18-Sued_Amerika08)*100)/100 +"kg CO2");
+}
