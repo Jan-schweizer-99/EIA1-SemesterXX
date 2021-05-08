@@ -1,0 +1,220 @@
+.Drumpad {
+    width: 600px;
+    height: 600px;
+}
+.Button {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.play3Samples {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.play3Samples:hover {
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+}
+.pad1 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.322);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad1:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad2 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.322);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad2:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad3 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.322);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad3:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad4 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad4:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad5 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 0, 0.3);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad5:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad6 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 0, 0.3);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad6:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad7 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad7:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad8 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad8:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.pad9 {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.pad9:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
