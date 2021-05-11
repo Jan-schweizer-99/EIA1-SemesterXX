@@ -18,7 +18,7 @@
     color: white;
     transition-duration: 0.6s;
 }
-.play3Samples {
+.P3S {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -34,11 +34,31 @@
     color: white;
     transition-duration: 0.6s;
 }
-.play3Samples:hover {
+.P3S:hover {
     background-color: rgb(0, 255, 0);
     color: rgb(255, 255, 255);
 }
-.pad1 {
+.flowchart {
+    font-family:'Arial Black', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.6s;
+}
+.flowchart:hover {
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+}
+.p1 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -54,11 +74,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad1:hover {
+.p1:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad2 {
+.p2 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -74,11 +94,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad2:hover {
+.p2:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad3 {
+.p3 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -94,11 +114,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad3:hover {
+.p3:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad4 {
+.p4 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -114,11 +134,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad4:hover {
+.p4:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad5 {
+.p5 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -134,11 +154,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad5:hover {
+.p5:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad6 {
+.p6 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -154,11 +174,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad6:hover {
+.p6:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad7 {
+.p7 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -174,11 +194,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad7:hover {
+.p7:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad8 {
+.p8 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -194,11 +214,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad8:hover {
+.p8:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.pad9 {
+.p9 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -214,7 +234,7 @@
     color: white;
     transition-duration: 0.6s;
 }
-.pad9:hover {
+.p9:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
