@@ -1,10 +1,6 @@
-
 .Drumpad {
     width: 600px;
-    height: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    height: 600px;
 }
 .Button {
     font-family:'Arial Black', sans-serif;
@@ -22,7 +18,15 @@
     color: white;
     transition-duration: 0.6s;
 }
-.P3S {
+.Button#Rausch:hover {
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+}
+.Button#Eigene:hover {
+    background-color: rgb(17, 0, 255);
+    color: rgb(255, 255, 255);
+}
+.play3Samples {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -38,31 +42,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.P3S:hover {
+.play3Samples:hover {
     background-color: rgb(0, 255, 0);
     color: rgb(255, 255, 255);
 }
-.flowchart {
-    font-family:'Arial Black', sans-serif;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: rgba(255, 0, 0, 0);
-    border-radius: 10px;
-    border: 2px solid rgb(255, 255, 255);
-    color: white;
-    transition-duration: 0.6s;
-}
-.flowchart:hover {
-    background-color: rgb(0, 255, 0);
-    color: rgb(255, 255, 255);
-}
-.p1 {
+.pad1 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -78,11 +62,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p1:hover {
+.pad1:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p2 {
+.pad2 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -98,11 +82,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p2:hover {
+.pad2:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p3 {
+.pad3 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -118,11 +102,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p3:hover {
+.pad3:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p4 {
+.pad4 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -138,11 +122,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p4:hover {
+.pad4:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p5 {
+.pad5 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -158,11 +142,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p5:hover {
+.pad5:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p6 {
+.pad6 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -178,11 +162,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p6:hover {
+.pad6:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p7 {
+.pad7 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -198,11 +182,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p7:hover {
+.pad7:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p8 {
+.pad8 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -218,11 +202,11 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p8:hover {
+.pad8:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.p9 {
+.pad9 {
     font-family:'Arial Black', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -238,7 +222,7 @@
     color: white;
     transition-duration: 0.6s;
 }
-.p9:hover {
+.pad9:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
 }
