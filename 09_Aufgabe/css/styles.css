@@ -1,0 +1,128 @@
+#Tabelle {
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)); 
+        border: 0em;
+        font-size:1em;
+        color:rgb(255, 255, 255);
+        resize: none;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 72px;
+}
+#Datum {
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)); 
+        border: 0em;
+        font-size:1em;
+        color:rgb(255, 255, 255);
+        resize: none;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 72px;
+}
+.button {
+    width: 72px;
+    height: 72px;
+    background-color: rgba(100, 100, 100, 0.247);
+    font-size: 50px;
+}
+.button#true {
+    color: rgb(0, 255, 0);
+    border: 1px white;
+    border-radius: 50%;
+    transition-duration: 0.8s;
+}
+.button#true:hover {
+    background-color: rgb(0, 255, 0);
+    color: white;
+}
+.button#false {
+    color: rgb(255, 0, 0);
+    border: 1px white;
+    border-radius: 50%;
+    transition-duration: 0.8s;
+}
+.button#false:hover {
+    background-color: rgb(255, 0, 0);
+    color:  white;
+}
+#Fach {
+    color: white;
+    width: 72px;
+}
+#Fach1 {
+    color: white;
+    width: 72px;
+    border: 0px;
+}
+#Fach2 {
+    color: white;
+    width: 72px;
+    border: 0px;
+}
+#Aufgabe {
+    color: white;
+}
+#Aufgabe1 {
+    color: white;
+    vertical-align: middle;
+}
+#Aufgabe2 {
+    color: white;
+    vertical-align: middle;
+}
+#AbgabeDatum {
+    color: white;
+    text-align: center;
+    width: 10%;
+}
+#AbgabeDatum1 {
+    color: white;
+    vertical-align: middle;
+}
+#AbgabeDatum2 {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: rgba(0, 0, 0, 0);
+}
+#Erledigt {
+    background-color: rgb(0, 255, 0);
+    justify-content: center;
+    width: 72px;
+}
+#Erledigt1 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    border-width: 0em;
+    text-align: center;
+    height: 72px;
+    vertical-align: middle;
+}
+#Erledigt2 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    border-width: 0em;
+    text-align: center;
+    height: 72px;
+    vertical-align: middle;
+}
+#nichtErledigt {
+    background-color: red;
+	justify-content: center;
+    width: 72px;
+}
+#nichtErledigt1 {
+    color: rgba(0, 0, 0, 0);
+	justify-content: center;
+    text-align: center;
+    height: 72px;
+    vertical-align: middle;
+}
+#nichtErledigt2 {
+    color: rgba(0, 0, 0, 0);
+	justify-content: center;
+    text-align: center;
+    height: 72px;
+    vertical-align: middle;
+}

@@ -1,0 +1,3 @@
+namespace aufgabe_9 {
+
+}
