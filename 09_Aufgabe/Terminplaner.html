@@ -1,73 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<meta charset="utf-8" />
-<title>Terminplaner</title>
-<style>
-body {
-	font-family: Arial, sans-serif;
-	font-size: 1em;
-	background: rgb(0, 0, 0);
-	color: rgb(255, 255, 255);
-
-}
-header {
-	text-align: center;
-}
-  table {
-	width: 100%;
-  }
-  td {
-	border: 2px solid;
-	overflow: hidden;
-	vertical-align: top;
-}
-</style>
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<script src="script.js" defer></script>
-<script>
-</script>
-<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="script.js"></script>
+    <title>ToDo App</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+			background: rgba(0, 0, 0, 0);
+			color: rgb(255, 255, 255);
+		}
+		</style>
+</head>
 <header>
-	<div class="navbar">
-		<center>
-	</center>
-</div>
-	<h1 id="header">Termin Planer</h1>
-	<h3 id="header">Fach auswählen</h1>
 </header>
-<img src="images/AudioTech.gif">
-<img src="images/BWL.gif">
-<img src="images/EIA.gif">
-<img src="images/MedGes.gif">
-<img src="images/Medpsy.gif">
-<img src="images/VideoTech.gif">
-<br>
-<table>
-	<tr class="breite">
-	  <th id="Fach">Fach</th>
-	  <th id="Aufgabe">Aufgabe</th>
-	  <th id="AbgabeDatum">Abgabe-Datum</th>
-	  <th id="Erledigt">✓</th>
-	  <th id="nichtErledigt">✗</th>
-	</tr>
-	<tr>
-	<td id="Fach1"><img src="images/AudioTech.gif"></td>
-	  <td id="Aufgabe1"><textarea id="Tabelle" name="Tabelle" rows="5" cols="50"></textarea></td>
-	  <td id="AbgabeDatum1"><textarea id="Datum" name="Datum" rows="5" cols="50"></textarea></td>
-	  <td id="Erledigt1"><i id="addButton" class="fas fa-plus-circle"></i></td>
-	  <td id="nichtErledigt1"></td>
-	</tr>
-	<tr>
-		<td id="Fach2"><img src="images/VideoTech.gif"></td>
-		  <td id="Aufgabe2"></td>
-		  <td id="AbgabeDatum2">20.03.2021<i id ="trashBin" class="fas fa-trash"></i></td>
-		  <td id="Erledigt2"><button class="button" id="true">✓</button></td>
-		  <td id="nichtErledigt2"><a><button class="button" id="false">✗</button></a></td>
-		</tr>
-  </table>
-<footer>
-</footer>
+<body>
+	<h1>Terminplaner</h1>
+    <h3><span id="aufgabenzuerledigen">Aufgaben zu erledigen: 0</span></h3>
+<!-- 	<img id="AUDIOTECH" src="images/AudioTech.gif">
+	<img id="BWL" src="images//BWL.gif">
+	<img id="EIA" src="images//EIA.gif">
+	<img id="MEDGES" src="images/MedGes.gif">
+	<img id="MEDPSY" src="images/Medpsy.gif">
+	<img id="VIDEOTECH" src="images/VideoTech.gif"> -->
+	<br>
+    <div id="content">
+        <div id="inputWrapper">
+            <input type="text" name="toDoInput" id="neueEingabe" value="" placeholder="Neue Aufgabe Hinzufügen">
+            <i id="addButton" class="fas fa-plus-circle"></i>
+        </div>
+        <ul id="newtoDo">
+        </ul>
+    </div>
+	<footer><a href="PDF/flowchart.pdf"><button class="flowchart">flowchart</button></a></footer>
 </body>
 </html>
